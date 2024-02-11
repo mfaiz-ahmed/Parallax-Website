@@ -6,7 +6,8 @@ html{font-size: 62.5%;}
 
 html,body{height: 100%;
 font-size: 1.4rem;
-line-height:1.8em ;}
+line-height:1.8em ;
+}
 
 
 .bg-1{background-image: url(./Assets/image1.png);
