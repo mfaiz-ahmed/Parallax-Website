@@ -4,13 +4,58 @@ box-sizing: border-box;}
 
 html{font-size: 62.5%;}
 
-.bg-1{background-image: url(./Assets/image1.png);       
-background-size: cover;
-background-repeat: no-repeat;}
+html,body{height: 100%;
+font-size: 1.4rem;
+line-height:1.8em ;}
 
 
-.background{background-color: #313534;
-    padding: 10px 10px;
-width: 400px;
-height: 60px;
+.bg-1{background-image: url(./Assets/image1.png);
+min-height: 100%;}
+
+.bg-2{background-image: url(./Assets/image2.png);
+min-height: 400px;}
+
+
+
+.bg-3{background-image: url(./Assets/image3.png);
+min-height: 400px;}
+
+
+.h-1{text-align: center;
+color: #ffffff;
+font-size: 1.1rem;
+width: 100%;
+letter-spacing: 8px;
+text-transform: uppercase;
+font-weight: 500;
+position: absolute;
+top: 50%;}
+
+
+.bg-h1{background-color:#313534;
+padding: 20px;}
+
+
+.bg-1 ,
+.bg-2 ,
+.bg-3
+{background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+position: relative;
+background-size: cover;}
+
+
+.section-1{  background-color: #f4f4f4;
+padding: 50px 80px;
+text-align: center;
+color: #666;
+}
+
+.section-2{background-color: #282e34;
+padding: 50px 80px;
+text-align: center;
 color: white;}
+
+.margin{margin-left: 200px;
+margin-right: 200px;}
